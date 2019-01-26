@@ -15,6 +15,7 @@ function love.load()
 
 	--sets font
 	love.graphics.setFont(gringoFont)
+	love.window.setTitle("Pew Pew Draw")
 
 	--checks to make sure if saveData.lua exists, if not it creates saveData.lua (located in LOVE Roaming file)
 	if love.filesystem.getInfo("saveData.lua", file) == nil then

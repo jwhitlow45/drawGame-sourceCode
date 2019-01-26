@@ -1,4 +1,4 @@
-require("scripts.playerdata")
+require("scripts.playerData")
 
 function gamesPlayedCounter()
 	love.graphics.printf("Games Played: "..loadedGamesPlayed.num, 275, 25, 250, 'center')
